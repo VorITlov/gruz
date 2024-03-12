@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(253, 253, 245);
+}
+
+.image_wrapper{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: yellow;
+}
+
+.section_first-screen{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.card_item{
+    background-color: blue;
+}
+
+
+.title_wrapper{
+    background-color: rgba(254, 249, 249, 0.491);
+}
+
+.icon_wrap{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 100%;
+}
+
+.img_about_us{
+    display:block; 
+    height: 580px;
+    width: 80%; 
+    margin:auto;
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img_advantures{
+    display:block; 
+    height: 420px;
+    width: 100%; 
+    margin:auto;
+    background-image: url(../img/bg5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+
+.all_screen{
+    padding-top: 230px;
+    padding-bottom: 230px;
+    width: 100%;
+    background-image: url(../img/bg4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contact_trigger{
+    margin-left: 35px;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+
+
+.triggers_wrap{
+    margin-top: 30px;
+}
+
+.triggers_wrap .icon{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(227, 201, 2);
+    border-radius: 100%;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.triggers_wrap .text{
+    margin-left: 20px;
+    margin-top: -8px;
+}
+
+.triggers_wrap{
+    flex: 0 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent; 
+}
+
+.line{
+    width:280px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: rgb(227, 201, 2);
+    margin: 75px auto;
+}
+
+.all_screen .text{
+    padding: 60px;
+    background-color: rgba(254, 249, 249, 0.7);
+}
