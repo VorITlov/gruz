@@ -171,3 +171,33 @@ body{
     padding: 60px;
     background-color: rgba(254, 249, 249, 0.7);
 }
+
+
+@media screen  and (max-width: 720px){
+    .section_first-screen{
+        background-position-y: 87px;
+        background-position-x: -328px;
+        /* padding-top: 43px; */
+    }
+
+    .menu_btn{
+        display: none;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .conatacts .btn_wrapper{
+        display: flex;
+    }
+
+    /* header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+    } */
+
+}
